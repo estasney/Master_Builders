@@ -18,7 +18,7 @@ Before starting, it is recommended that you download and install the **64-Bit** 
 
 1. For ease of use, it is recommended to install [PyCharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)
 2. Once installed, you are ready to download Perseus
-###  Downloading Perseus
+
 
 
 
