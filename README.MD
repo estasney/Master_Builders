@@ -14,6 +14,6 @@ My goal is to inspire you to become "Master Builders" so that you if you can dre
 ## Available Courses
 *Updated Each Week*
 
-1. [HTML](https://github.com/estasney/Master_Builders/blob/master/Lesson%201%20-%20HTML.md)
+1. [HTML](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%201%20-%20HTML.md)
 
 
