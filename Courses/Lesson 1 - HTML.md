@@ -7,17 +7,16 @@ there is a huge variety of blocks. Some are more basic, structural blocks wherea
 If we want to navigate *Legoland* we should learn all about these building blocks!
 
 ## Homework
-1. Create a free account on [CodeAcademy](https://www.codecademy.com).
-2. Start [HTML and CSS](https://www.codecademy.com/learn/learn-html-css) *Note, only working on partial course*
-    
-    a. HTML Fundamentals
-    b. HTML Content
-    c. CSS Fundamentals
-    d. Styling with CSS
-    e. Organizing HTML & CSS
+- [ ] Create a free account on [CodeAcademy](https://www.codecademy.com).
+- [ ] Start [HTML and CSS](https://www.codecademy.com/learn/learn-html-css) *Note, only working on partial course*
+    - [ ] HTML Fundamentals
+    - [ ] HTML Content
+    - [ ] CSS Fundamentals
+    - [ ] Styling with CSS
+    - [ ] Organizing HTML/CSS
 
 ## Extra Credit
-1. Customize Your Web Page [W3Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+- [ ] Customize Your Web Page [W3Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
 
 ## Group Session
 1. Explore Examples from Group on [JSFiddle](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
