@@ -1,29 +1,19 @@
-# Master Builders
-*Work in Progress*
-## Resource Page
+## Welcome to the Course!
+As sourcers, the information that we are after is vastly web-based and in an unstructured format.
 
-## Choosing an IDE
+Before we cover the fundamentals of Python, it is paramount that you understand how to *Extract* what you need.
 
-## Installing Python
+Hopefully you are familiar with the movie, *The Lego Movie*. In the movie, *Everything Is Awesome!!!*, everything is 
+ordered and structured according to a plan laid out by *Lord Business*
 
-These courses assume you have Windows 10 installed. For earlier versions of Windows, you many find some nuances.
+However, there are a few Legolians that resist the order and structure laid out before them. This small group of 
+"Master Builders" is notorious for breaking apart Lego buildings and building something that they find useful.
 
-Let's start with installing Python and a Python Editor (IDE) on your PC.
+My goal is to inspire you to become "Master Builders" so that you if you can dream it, you can build it!
 
-There are two versions of Python. Python 2 and Python 3. Python 2 is a legacy version that is maintained for compatibility. Python 3 is the version that is currently supported and recommended for new users.
+## Available Courses
+*Updated Each Week*
 
-Before starting, it is recommended that you download and install the **64-Bit** version if you are running a 64-Bit version of windows. See [How do I know what bit version of windows I have?](https://www.howtogeek.com/howto/21726/how-do-i-know-if-im-running-32-bit-or-64-bit-windows-answers/)
-
-### Installing Python IDE
-
-1. For ease of use, it is recommended to install [PyCharm](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)
-2. Once installed, you are ready to download Perseus
-###  Downloading Perseus
-
-
-
-
-
-
+1. [HTML](https://github.com/estasney/Master_Builders/blob/master/Lesson%201%20-%20HTML.md)
 
 
