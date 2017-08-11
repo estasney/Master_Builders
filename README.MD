@@ -11,6 +11,18 @@ However, there are a few Legolians that resist the order and structure laid out 
 
 My goal is to inspire you to become "Master Builders" so that you if you can dream it, you can build it!
 
+## About The Courses
+Courses are structured around completing "Homework" assignments before each group session. 
+
+I've leveraged many of the outstanding tools and courses available free online so that you can explore concepts at your own pace.
+
+No amount of teaching can replace the process of internalizing these concepts through practice.
+
+The group sessions seek to uncover knowledge gaps as well as to reinforce knowledge.
+
+These first few weeks are critical! You *will* be frustrated and may want to quit. But don't give up! By week 3, you will 
+be building your own tools! 
+
 ## Available Courses
 *Updated Each Week*
 
