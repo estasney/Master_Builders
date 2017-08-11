@@ -9,12 +9,16 @@ If we want to navigate *Legoland* we should learn all about these building block
 ## Homework
 - [ ] Create a free account on [CodeAcademy](https://www.codecademy.com).
 - [ ] Start [HTML and CSS](https://www.codecademy.com/learn/learn-html-css) *Note, only working on partial course*
+    <details>
+        <summary>Complete These</summary>
+        <p>
     - [ ] HTML Fundamentals
     - [ ] HTML Content
     - [ ] CSS Fundamentals
     - [ ] Styling with CSS
     - [ ] Organizing HTML/CSS
-
+        </p>
+        </details>
 ## Extra Credit
 - [ ] Customize Your Web Page [W3Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
 
