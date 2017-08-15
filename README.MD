@@ -9,7 +9,7 @@ ordered and structured according to a plan laid out by *Lord Business*
 However, there are a few Legolians that resist the order and structure laid out before them. This small group of 
 "Master Builders" is notorious for breaking apart Lego buildings and building something that they find useful.
 
-My goal is to inspire you to become "Master Builders" so that you if you can dream it, you can build it!
+My goal is to inspire you to become "Master Builders" so that if you can dream it, you can build it!
 
 ![Master Builders](https://peopledotcom.files.wordpress.com/2016/08/lego-movie-600.jpg)
 
