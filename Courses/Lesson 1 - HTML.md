@@ -21,8 +21,8 @@ If we want to navigate *Legoland* we should learn all about these building block
 ## Group Session
 1. Explore Examples from Group on [JSFiddle](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
 2. Introduce Chrome Developer Tools [Chrome Tools](https://developer.chrome.com/devtools)
-3. Explore "Live" Examples (LinkedIn, Cisco.com, Wikipedia)
-4. Introduce CSS Styling with Cisco Jobs
+3. Debug HTML and CSS Styling Errors on Cisco Jobs [Why did this happen?](https://jsfiddle.net/estasney/h5r7xkz4/) [Can you fix it?](https://jsfiddle.net/estasney/n8yjsbhk/4/)
+4. Email Templates [HTML and Emails](https://jsfiddle.net/estasney/3ba3yna6/)
 
 
 
