@@ -1,5 +1,5 @@
 # HTML
-
+![Master Builders](https://peopledotcom.files.wordpress.com/2016/08/lego-movie-600.jpg)
 ## Why HTML
 Keeping with the Lego analogy, HTML can be thought of as Lego blocks. If you've ever played with Legos you know that
 there is a huge variety of blocks. Some are more basic, structural blocks whereas others are more specialized.
@@ -17,6 +17,7 @@ If we want to navigate *Legoland* we should learn all about these building block
        
 ## Extra Credit
 - [ ] Customize Your Web Page [W3Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
+- [ ] Create a Simple Page on [JSFiddle](https://jsfiddle.net) We'll enhance it through the courses
 
 ## Group Session
 1. Explore Examples from Group on [JSFiddle](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default)
