@@ -11,6 +11,8 @@ However, there are a few Legolians that resist the order and structure laid out 
 
 My goal is to inspire you to become "Master Builders" so that you if you can dream it, you can build it!
 
+![Master Builders](https://peopledotcom.files.wordpress.com/2016/08/lego-movie-600.jpg)
+
 ## About The Courses
 Courses are structured around completing "Homework" assignments before each group session. 
 
