@@ -2,6 +2,12 @@
 *Work in Progress*
 ## Resource Page
 
+## HTML Examples
+[W3Schools - HTML](https://www.w3schools.com/html/html_examples.asp)
+
+## CSS Reference
+[W3Schools - CSS](https://www.w3schools.com/css/css_examples.asp)
+
 ## Choosing an IDE
 
 ## Installing Python
