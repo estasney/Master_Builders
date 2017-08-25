@@ -1,0 +1,161 @@
+<!-- To use this example, copy and paste this into the Source Tab of Selenium IDE -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.lowes.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<!--Begin price tracker-->
+<!--Go directly to grass seed page-->
+<tr>
+	<td>open</td>
+	<td>https://www.lowes.com/pd/Scotts-40-lb-Tall-Fescue-Southern-Gold-Seed/50076909</td>
+	<td></td>
+</tr>
+<!--Wait to make sure the price is loaded. This is XPATH-->
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[3]/div/div/div/span</td>
+	<td></td>
+</tr>
+<!--Get the price. We store the text to a variable called grass_price.-->
+<tr>
+	<td>storeText</td>
+	<td>//div[3]/div/div/div/span</td>
+	<td>grass_price</td>
+</tr>
+<!--The echo command will display aka print to the log.-->
+<!--We can reference a variable we create by surrounding it with ${}-->
+<tr>
+	<td>echo</td>
+	<td>The price of grass seed is ${grass_price}</td>
+	<td></td>
+</tr>
+<!--Now we go to target for the pillow fort-->
+<tr>
+	<td>open</td>
+	<td>https://www.target.com/p/teepee-polyester-fabric-gold-star-pillowfort-153/-/A-50720800</td>
+	<td></td>
+</tr>
+<!--We wait to make sure the price is loaded-->
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=#js-product-sr-id &gt; div.price &gt; span.h-text-lowercase</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=#js-product-sr-id &gt; div.price &gt; span.h-text-lowercase</td>
+	<td>pillow_fort_price</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>The price of the pillow fort is ${pillow_fort_price}</td>
+	<td></td>
+</tr>
+<!--Now to walmart-->
+<tr>
+	<td>open</td>
+	<td>https://www.walmart.com/ip/Google-Home/54742302</td>
+	<td></td>
+</tr>
+<!--Wait for price to load-->
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.prod-BOTContainer span.Price-group &gt; span[itemprop='price']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=div.prod-BOTContainer span.Price-group &gt; span[itemprop='price']</td>
+	<td>google_home_price</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>The price of a Google Home is ${google_home_price}</td>
+	<td></td>
+</tr>
+<!--We see that from the page, only 129 is returned. We use storeEval to add the dollar sign and cents-->
+<tr>
+	<td>storeEval</td>
+	<td>&quot;$&quot; + ${google_home_price} +&quot;.00&quot;</td>
+	<td>google_home_price_formatted</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>The price of a Google Home is ${google_home_price_formatted}</td>
+	<td></td>
+</tr>
+<!--Now to bestbuy-->
+<tr>
+	<td>open</td>
+	<td>https://www.bestbuy.com/site/dji-mavic-pro-quadcopter-with-remote-controller-gray/5621780.p?skuId=5621780</td>
+	<td></td>
+</tr>
+<!--Wait for price to load-->
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.pb-hero-price.pb-purchase-price &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>css=div.pb-hero-price.pb-purchase-price &gt; span</td>
+	<td>drone_price</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>The price of the drone is ${drone_price}</td>
+	<td></td>
+</tr>
+<!--Now that we have all the prices, we will log them to our Google Form-->
+<tr>
+	<td>open</td>
+	<td>https://docs.google.com/forms/d/e/1FAIpQLSdLTycNXz8_ma_dDh3Du8CTshprV_W1qYttpWQpBbkb4hu6fA/viewform</td>
+	<td></td>
+</tr>
+<!--We wait for the form to load. We use the header title in this case-->
+<tr>
+	<td>waitForElementPresent</td>
+	<td>css=div.freebirdFormviewerViewHeaderTitle</td>
+	<td></td>
+</tr>
+<!--We will now type these prices in-->
+<tr>
+	<td>sendKeys</td>
+	<td>name=entry.809504561</td>
+	<td>${grass_price}</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=entry.619414392</td>
+	<td>${google_home_price_formatted}</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=entry.1042649498</td>
+	<td>${drone_price}</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=entry.643240343</td>
+	<td>${pillow_fort_price}</td>
+</tr>
+<!--Now just click submit-->
+<tr>
+	<td>click</td>
+	<td>css=div.freebirdFormviewerViewNavigationButtons content.quantumWizButtonPaperbuttonContent span</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
