@@ -1,7 +1,7 @@
 # Selectors
 
 ## Why Selectors
-In Lesson 1 we explored the basic building blocks of the web, HTML. 
+In [Lesson 1](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%201%20-%20HTML.md) we explored the basic building blocks of the web, HTML. 
 
 Now think of a web page as city and each HTML block as a building in the city.
 
