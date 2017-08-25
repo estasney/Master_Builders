@@ -15,7 +15,7 @@ We could:
 2. Ask for directions (**An Indirect Approach**)
 
 ### Direct Approaches
-Target Acquired!
+*Target Acquired!*
 
 ##### Monday
 You have provided the exact GPS coordinates for *Pizza Palace*. You get some delicious pizza.
@@ -27,6 +27,15 @@ you want some delicious pizza.
 
 Now imagine that each time you open a page, the day of the week changes. You will then understand why *Direct Approaches*
 can be **fragile**.
+
+### Indirect Approaches
+*Using the Force!*
+
+##### Monday
+You have the GPS coordinate for *Pizza Palace* but this time you ask a few locals where you can find it. Since it's a food truck, that's a smart move.
+
+Person 1: Look for a "Red" truck
+Person 2: *Pizza Palace* 
 
 
 
