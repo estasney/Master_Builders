@@ -71,12 +71,12 @@ However, if "navigate" to the business district first, and then look for the foo
 ## Enough Analogies Already
 
 ### Homework
-[ ] - Install [Selenium IDE](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
+- [ ] Install [Selenium IDE](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
 **Note** If you see a message saying the add-on is not compatible, use this [Guide](https://github.com/estasney/Master_Builders/blob/master/Resources/Installing%20Selenium%20IDE.md)
-[ ] - Using Selenium IDE, try to automate something!
-[ ] - Automate something using Selenium IDE's Record Feature (enabled by default)
-[ ] - Try changing one parameter and see if it still works. (Example: searching for a different product on Amazon)
-[ ] - When it breaks, take notes on the website you were on and what you were trying to do. We'll share these on the call.
+- [ ] Using Selenium IDE, try to automate something!
+- [ ] Automate something using Selenium IDE's Record Feature (enabled by default)
+- [ ] Try changing one parameter and see if it still works. (Example: searching for a different product on Amazon)
+- [ ] When it breaks, take notes on the website you were on and what you were trying to do. We'll share these on the call.
 
 #### Word About XPATH vs CSS
 There are two methods for navigating a web page. When you are first starting, I would recommend choosing one that you feel most comfortable with and mastering it.
@@ -93,11 +93,11 @@ CSS : ```#readme > article > h1```
 3. W3Schools [CSS Selector](https://www.w3schools.com/cssref/css_selectors.asp)
 
 ### Extra Credit
-[ ] - Make a Price Tracker. Every day get a price and log it to a spreadsheet.
+- [ ]Make a Price Tracker. Every day get a price and log it to a spreadsheet.
 
 
 ### Group Call
-[ ] - CSS
-[ ] - XPATH
-[ ] - Tools for Finding Selectors
-[ ] - Demo
+- [ ] - CSS
+- [ ] - XPATH
+- [ ] - Tools for Finding Selectors
+- [ ] - Demo
