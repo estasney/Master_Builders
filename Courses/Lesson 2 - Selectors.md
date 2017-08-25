@@ -3,11 +3,11 @@
 ## Why Selectors
 In [Lesson 1](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%201%20-%20HTML.md) we explored the basic building blocks of the web, HTML. 
 
-Now think of a web page as city and each HTML block as a building in the city.
+Now think of a web page as a city and each HTML block as a building in the city.
 
 As with every city, each building will have its own address. As you'll soon find out, there are quite a few ways to navigate our city!
 
-## Selectors Are GPS for your browser
+## Selectors Are GPS for your Browser
 Let's imagine we want to get across town to *Talent Hub's Pizza Palace*. Oh and now it's a food truck.
 
 We could:
@@ -21,11 +21,11 @@ We could:
 You have provided the exact GPS coordinates for *Pizza Palace*. You get some delicious pizza.
 
 ##### Friday
-You use the same GPS coordinates for *Pizza Palace*. Unfortunately for you *Pizza Palace* is a food truck and will always be on the move!
-While it was easy to Google the coordinate on Monday, you now find yourself having to Google the coordinates every time
+You use the same GPS coordinates for *Pizza Palace*. Unfortunately for you, *Pizza Palace* is a food truck and will always be on the move!
+While it was easy to Google the coordinates on Monday, you now find yourself having to Google the coordinates every time
 you want some delicious pizza.
 
-Now imagine that each time you open a page, the day of the week changes. You will then understand why *Direct Approaches*
+Now imagine that each time you open a page, the day of the week changes. You will then understand why **Direct Approaches**
 can be **fragile**.
 
 ### Indirect Approaches
@@ -36,7 +36,9 @@ You have the GPS coordinates for *Pizza Palace* but this time you ask a few loca
 
 
 Person 1: Look for a "Red" truck
+
 Person 2: *Pizza Palace* sells their pizza to employees in the Business District.
+
 Person 3: The *Pizza Palace* truck is the only one to play music in the Business District.
 
 ##### How do we make sense of these directions?
