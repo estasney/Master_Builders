@@ -159,10 +159,24 @@ XPATH | CSS | Notes | Results | Why
 //ol | ol | Start with ol tag found anywhere on page | PASS | There is only one ```<ol>```
 //ol[@id='results'] | ol#results | Select an ol tag with an id of "results" | PASS | Any selection with ```<ol>``` will pass
 //ol[@class='resultsList] | ol.resultsList | Select on class attribute | PASS | See above
-//*[@id='results] | #results | Wildcards | PASS | results is a unique ID
+//*[@id='results] | #results | Wildcards | PASS | 'results' is a unique ID
 
 
 ![](https://thumbs.gfycat.com/KeyEnormousErin-size_restricted.gif)
+
+***
+
+You've see how we can locate the ```<ol>``` element using a number of different methods with XPATH and CSS.
+
+Now it's a simple matter of selecting the "3rd child" of the ```<ol>``` element.
+
+XPATH | CSS | Notes | Results | Why
+--- | --- | --- | --- | ---
+//ol//li[3] | ol li:nth-of-type(3) | We select the "3rd element" and allow for any hierachies between ```<ol>``` and ```<li>``` | PASS |
+//*//li[3] |  li:nth-of-type(3) | We use a wildcard for ```<ol>``` | FAIL | We get 6 results. The side menu has a ```<ul>``` element as parent of ```<li>``` elements
+//ol/li[3] | ol > li:nth-of-type(3) | We select immediate ```<li>``` children of ```<ol>``` only | PASS |
+
+![](https://thumbs.gfycat.com/LeafyGrandGemsbok-size_restricted.gif)
 
 
 
