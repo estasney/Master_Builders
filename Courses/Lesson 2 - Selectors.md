@@ -95,11 +95,72 @@ CSS : ```#readme > article > h1```
 
 ***
 
-## Enough Analogies Already
+### Enough Analogies Already
+
+***
 
 Take a look at this example [Indeed Page](https://www.indeed.com/resumes?q=software+engineer&l=Morrisville%2C+PA&cb=jt)
 
-Let's try to write a CSS Selector To Select the 3rd Element. Start by pressing <kbd>F12</kbd>
+Let's try to write a CSS Selector To Select the 3rd Element. Start by pressing <kbd>F12</kbd>. This will open Chrome Developer Tools.
+
+We will use the handy "Copy Selector" feature.
+
+[]!(https://thumbs.gfycat.com/GentleHelplessChihuahua-size_restricted.gif)
+
+***
+
+While we got a working selector for the first page, from the above animation, we see that it does not work if we go to the next page.
+
+Here's the selector we got:
+
+```#\38 4deb8b2982b75be > div > div.sre-content > div.app_name > a```
+
+Remember that with CSS Selectors a ">" indicates a direct path. So let's break it down by <kbd>></kbd>:
+
+```#\38 4deb8b2982b75be > div > div.sre-content > div.app_name > a```
+
+Right off the bat, we see this as our first selector:
+
+```#\38 4deb8b2982b75be```
+
+OK we see the <kbd>#</kbd> sign which indicates that we are looking at an **ID** attribute. If we look at some other results on the page
+we see that each result has a unique **ID**. So Chrome will steer us wrong if we use the copy selector/xpath feature.
+
+In case you wanted to see what it gives for XPATH...
+
+```//*[@id="9038ee8495cec959"]/div/div[2]/div[1]/a```
+
+Here it is more clear that we are looking for elements based on their **ID** attribute.
+
+***
+
+Get ready this will be your first exercise in thinking like a programmer. We want to select the 3rd result on every page, so how can we
+translate that for a computer to understand?
+
+We know that on every page, there will be no more than 50 results. It really doesn't matter how many there are, so long as there are at least 3.
+
+We see that the element
+
+```<ol id="results" class="resultsList" data-tn-section="resume-search-results">```
+
+Is the direct ancestor or parent of each result on the page. If we can write a selector that uses the ```<ol>``` element as a reference point
+we can then point it towards the 3rd of its 50 (more or less) children. These children will have different **IDs**, but will be able to select them by position.
+
+We begin by selecting the ```<ol>``` element.
+
+```html
+<ol id="results" class="resultsList" data-tn-section="resume-search-results">
+```
+
+It looks like there are a few hopefully unique attributes of ```<ol>``` that we can use. 
+
+XPATH | CSS | Notes
+--- | --- | ---
+//ol | ol | Start with ol tag found anywhere on page
+//ol[@id='results'] | ol#results | Select an ol tag with an id of "results"
+
+
+
 
 
 
