@@ -105,7 +105,7 @@ Let's try to write a CSS Selector To Select the 3rd Element. Start by pressing <
 
 We will use the handy "Copy Selector" feature.
 
-[]!(https://thumbs.gfycat.com/GentleHelplessChihuahua-size_restricted.gif)
+![](https://thumbs.gfycat.com/GentleHelplessChihuahua-size_restricted.gif)
 
 ***
 
@@ -154,11 +154,15 @@ We begin by selecting the ```<ol>``` element.
 
 It looks like there are a few hopefully unique attributes of ```<ol>``` that we can use. 
 
-XPATH | CSS | Notes
+XPATH | CSS | Notes | Results | Why
 --- | --- | ---
-//ol | ol | Start with ol tag found anywhere on page
-//ol[@id='results'] | ol#results | Select an ol tag with an id of "results"
+//ol | ol | Start with ol tag found anywhere on page | PASS | There is only one ```<ol>```
+//ol[@id='results'] | ol#results | Select an ol tag with an id of "results" | PASS | Any selection with ```<ol>``` will pass
+//ol[@class='resultsList] | ol.resultsList | Select on class attribute | PASS | See above
+//*[@id='results] | #results | Wildcards | PASS | results is a unique ID
 
+
+![](https://thumbs.gfycat.com/KeyEnormousErin-size_restricted.gif)
 
 
 
