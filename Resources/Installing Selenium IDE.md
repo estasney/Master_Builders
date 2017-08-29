@@ -33,7 +33,9 @@ If you have a version that starts with **55** (or higher) you have some more wor
 
 - [ ] - Immediately go to `about:preferences#advanced`
 - [ ] - Ensure Updates are not Automatic
-- [ ] - Do not refresh Firefox
+- [ ] - You may see a pop-up asking if you would like to "Refresh Your Firefox Experience". **Do not** accept.
+
+![](https://thumbs.gfycat.com/TalkativeImportantIberianbarbel-size_restricted.gif)
 
 ### Install Selenium IDE
 - [ ] - Go to Selenium IDE on Firefox's [Add-On Page](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
@@ -41,6 +43,8 @@ If you have a version that starts with **55** (or higher) you have some more wor
 - [ ] - Go to `about:addons`, select "Extensions"
 - [ ] - On the Page, look for a small gear icon, top right. Click Install Add-on From File.
 - [ ] - Select the Add-on you just downloaded.
+
+![](https://thumbs.gfycat.com/SmartClutteredIzuthrush-size_restricted.gif)
 
 
 ### Done!
