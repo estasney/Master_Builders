@@ -93,6 +93,7 @@ CSS : ```#readme > article > h1```
 ### Extra Credit
 - [ ] - Make a Price Tracker. Every day get a price and log it to a spreadsheet.
 
+***
 
 ## Enough Analogies Already
 
