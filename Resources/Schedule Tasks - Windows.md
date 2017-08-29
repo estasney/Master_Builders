@@ -18,7 +18,7 @@ print(sys.executable)
 
 ### Open Task Scheduler
 
-![Open From Windows](https://gfycat.com/gifs/detail/GenerousWellmadeKingfisher "Open")
+![](https://gfycat.com/GenerousWellmadeKingfisher)
 
 
  
