@@ -30,3 +30,47 @@ What we want to do is to create a Google Form that our Price Tracker can visit a
 
 ![](https://thumbs.gfycat.com/RewardingCanineDoe-size_restricted.gif)
 
+## Let's Start Automating!
+
+Before we get started, you may see that some GIFs are from Chrome. That is because I prefer the speed and layout of Chrome's developer tools.
+Feel free to use Firefox's if it is to your liking.
+
+- [ ] - Open Firefox and Selenium IDE
+- [ ] - Add a shortcut to Selenium IDE
+
+![](https://thumbs.gfycat.com/GlossyCourageousIsabellinewheatear-size_restricted.gif)
+
+
+- [ ] - Disable Record On Open
+
+![](https://thumbs.gfycat.com/InfamousPettyCheetah-size_restricted.gif)
+
+
+For this example, we'll be tracking the price of the *DoughXpress D-TXE-2-18 Stainless Steel Commercial Electromechanical Dual-Heated Press* for our *Pizza Palace Empire*
+
+Here's the page we'll use [Pizza Maker](https://www.amazon.com/DoughXpress-D-TXE-2-18-Commercial-Electromechanical-Dual-Heated/dp/B004JPB5CE)
+
+
+- [ ] - Get The Selector for the Price
+
+
+Use your XPATH and CSS Knowledge to Determine the selector for the price. Remember you can right-click on an element to find it directly in Developer Tools.
+
+Here's the element the price exists in:
+
+```HTML
+<span id="priceblock_ourprice" class="a-size-medium a-color-price">$6,890.00</span>
+```
+
+OK can you think of a few XPATH and/or CSS Selectors that would work here? Let's set up a table:
+
+Strategy | XPATH | CSS | Results
+ --- |--- | --- | ---
+ Find a ```<span>``` element anywhere on page | //span | span | FAIL - 973 Results, Too Broad
+ Find a ```<span>``` element anywhere on page with id=priceblock_ourprice| //span[@id='priceblock_ourprice'] | span#priceblock_ourprice | PASS
+ Find a ```<span>``` element by class | //span[@class='a-size-medium a-color-price'] | span.a-size-medium.a-color-price | PASS (See Note)
+ 
+ 
+
+
+
