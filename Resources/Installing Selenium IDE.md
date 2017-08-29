@@ -17,7 +17,7 @@ Select an option other than Automatically Install Updates.
 
 So what version do you have? 
 
-[[ https://thumbs.gfycat.com/BlackandwhiteBelatedDwarfrabbit-size_restricted.gif | height=100]]
+![](https://gfycat.com/gifs/detail/EllipticalClassicChameleon)
 
 1. Open the menu (top right, 3 horizontal bars)
 2. Click the question mark 
