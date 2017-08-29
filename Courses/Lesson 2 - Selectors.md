@@ -68,14 +68,6 @@ As you can see, a **Direct Approach** would have failed because of the imposter.
 
 However, if "navigate" to the business district first, and then look for the foodtruck playing "Sourcing Disco", we would succeed!
 
-## Enough Analogies Already
-
-Take a look at this example [Indeed Page](https://www.indeed.com/resumes?q=software+engineer&l=Morrisville%2C+PA&cb=jt)
-
-Now you can see how navigating and writing robust CSS and XPATH Selectors is important!
-
-To demonstrate the concept of Children and Ancestors, I made this [explorable graph](http://jsfiddle.net/estasney/ytz5hh1x/3/embedded/result/) that might help you better understand the structure of a page.
-
 ### Homework
 - [ ] Install [Selenium IDE](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
 **Note** If you see a message saying the add-on is not compatible, use this [Guide](https://github.com/estasney/Master_Builders/blob/master/Resources/Installing%20Selenium%20IDE.md)
@@ -100,6 +92,14 @@ CSS : ```#readme > article > h1```
 
 ### Extra Credit
 - [ ] - Make a Price Tracker. Every day get a price and log it to a spreadsheet.
+
+
+## Enough Analogies Already
+
+Take a look at this example [Indeed Page](https://www.indeed.com/resumes?q=software+engineer&l=Morrisville%2C+PA&cb=jt)
+
+Let's try to write a CSS Selector To Select the 3rd Element. Start by pressing <kbd>F12</kbd>
+
 
 
 
