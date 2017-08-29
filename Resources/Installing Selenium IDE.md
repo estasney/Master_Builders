@@ -17,11 +17,7 @@ Select an option other than Automatically Install Updates.
 
 So what version do you have? 
 
-![](https://gfycat.com/gifs/detail/EllipticalClassicChameleon)
-
-1. Open the menu (top right, 3 horizontal bars)
-2. Click the question mark 
-3. The Select About Firefox
+![](https://thumbs.gfycat.com/EllipticalClassicChameleon-size_restricted.gif)
 
 If you have a version that starts with **54**, you are done!
 
