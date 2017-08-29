@@ -16,13 +16,17 @@ import sys
 print(sys.executable)
 ```
 
-### Open Task Scheduler
+## Open Task Scheduler
 
 ![](https://thumbs.gfycat.com/HollowFantasticAnhinga-size_restricted.gif)
 
-### Create A Task
+## Create A Task
 
 ![](https://thumbs.gfycat.com/GenerousWellmadeKingfisher-size_restricted.gif)
+
+## Test Your Task
+
+![](https://thumbs.gfycat.com/ExhaustedCompleteJumpingbean-size_restricted.gif)
 
 
  
