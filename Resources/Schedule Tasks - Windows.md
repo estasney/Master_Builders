@@ -18,7 +18,11 @@ print(sys.executable)
 
 ### Open Task Scheduler
 
-![Open From Windows](https://gfycat.com/gifs/detail/GenerousWellmadeKingfisher "Open")
+![](https://thumbs.gfycat.com/HollowFantasticAnhinga-size_restricted.gif)
+
+### Create A Task
+
+![](https://thumbs.gfycat.com/GenerousWellmadeKingfisher-size_restricted.gif)
 
 
  
