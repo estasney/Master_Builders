@@ -99,11 +99,14 @@ CSS : ```#readme > article > h1```
 3. W3Schools [CSS Selector](https://www.w3schools.com/cssref/css_selectors.asp)
 
 ### Extra Credit
-- [ ]Make a Price Tracker. Every day get a price and log it to a spreadsheet.
+- [ ] - Make a Price Tracker. Every day get a price and log it to a spreadsheet.
+
 
 
 ### Group Call
 - [ ] - CSS
 - [ ] - XPATH
 - [ ] - Tools for Finding Selectors
-- [ ] - Demo
+- [ ] - Demo Selenium IDE Price Tracker
+- [ ] - Demo Python Price Tracker
+- [ ] - Demo Windows Task Scheduler

@@ -47,7 +47,7 @@ def get_the_time():
 BEGIN SCRIPT
 """
 
-driver = webdriver.PhantomJS(desired_capabilities=capabilities, executable_path=phantom_path)
+driver = webdriver.PhantomJS(desired_capabilities=capabilities, executable_path=phantom_path, service_log_path=r"C:\Users\estasney\Google Drive\Cisco\Extracts\Price Tracker\tracker_log.log")
 
 # Load Page
 driver.get(product_pages[0])
