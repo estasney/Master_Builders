@@ -13,9 +13,11 @@ Copy and paste this into your Firefox address bar:
 
 Select an option other than Automatically Install Updates.
 
-### Drum Roll...
+### Drum Roll... What Version Do You Have?
 
 So what version do you have? 
+
+[[ https://thumbs.gfycat.com/BlackandwhiteBelatedDwarfrabbit-size_restricted.gif | height=100]]
 
 1. Open the menu (top right, 3 horizontal bars)
 2. Click the question mark 
