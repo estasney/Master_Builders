@@ -155,7 +155,7 @@ We begin by selecting the ```<ol>``` element.
 It looks like there are a few hopefully unique attributes of ```<ol>``` that we can use. 
 
 XPATH | CSS | Notes | Results | Why
---- | --- | ---
+--- | --- | --- | --- | ---
 //ol | ol | Start with ol tag found anywhere on page | PASS | There is only one ```<ol>```
 //ol[@id='results'] | ol#results | Select an ol tag with an id of "results" | PASS | Any selection with ```<ol>``` will pass
 //ol[@class='resultsList] | ol.resultsList | Select on class attribute | PASS | See above
