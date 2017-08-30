@@ -29,9 +29,16 @@ be building your own tools!
 *Updated Each Week*
 
 1. [HTML](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%201%20-%20HTML.md)
+2. [Selectors](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md)
+2.5 [Selenium IDE](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202.5%20-%20Selenium%20IDE.md)
 
 ## Upcoming Courses
 
-1. [CSS and XPATH](https://github.com)
+## Directory
+
+1. [Courses](https://github.com/estasney/Master_Builders/tree/master/Courses)
+2. [Examples](https://github.com/estasney/Master_Builders/tree/master/Examples)
+3. [How To's](https://github.com/estasney/Master_Builders/tree/master/How%20To's)
+4. [Resources](https://github.com/estasney/Master_Builders/tree/master/Resources)
 
 
