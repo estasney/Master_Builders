@@ -12,7 +12,7 @@ In [Lesson 1](https://github.com/estasney/Master_Builders/blob/master/Courses/Le
 
 Now think of a web page as a city and each HTML block as a building in the city.
 
-As with every city, each building will have its own address. As you'll soon find out, there are quite a few ways to navigate our city!
+As with every city, each building will have its own address. As you will soon find out, there are quite a few ways to navigate our city!
 
 
 
@@ -48,7 +48,7 @@ Person 1: Look for a "Red" truck
 
 Person 2: *Pizza Palace* sells their pizza to employees in the Business District.
 
-Person 3: The *Pizza Palace* truck is the only one to play music in the Business District.
+Person 3: The *Pizza Palace* truck is the only one to play *Sourcing Disco* music in the Business District.
 
 ##### How do we make sense of these directions?
 If we asked just one person, the directions they gave us would certainly not be enough to find our food truck.
@@ -75,7 +75,7 @@ Did you spot the imposter food truck? Yes, it appears another food truck is tryi
 
 As you can see, a **Direct Approach** would have failed because of the imposter.
 
-However, if "navigate" to the business district first, and then look for the foodtruck playing "Sourcing Disco", we would succeed!
+However, if "navigate" to the business district first, and then look for the ```<food_truck>``` playing "Sourcing Disco", we would succeed!
 
 ### Homework
 - [ ] Install [Selenium IDE](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
@@ -85,7 +85,10 @@ However, if "navigate" to the business district first, and then look for the foo
 - [ ] Try changing one parameter and see if it still works. (Example: searching for a different product on Amazon)
 - [ ] When it breaks, take notes on the website you were on and what you were trying to do. We'll share these on the call.
 
-#### Word About XPATH vs CSS
+### Extra Credit
+- [ ] - Make a Price Tracker. Every day get a price and log it to a spreadsheet.
+
+#### A Word About XPATH vs CSS
 There are two methods for navigating a web page. When you are first starting, I would recommend choosing one that you feel most comfortable with and mastering it.
 
 They both have similar capabilities, their major difference is syntax. What do you find easiest to read and write?
@@ -99,8 +102,7 @@ CSS : ```#readme > article > h1```
 2. W3Schools [XPATH Tutorial](https://www.w3schools.com/xml/xpath_intro.asp)
 3. W3Schools [CSS Selector](https://www.w3schools.com/cssref/css_selectors.asp)
 
-### Extra Credit
-- [ ] - Make a Price Tracker. Every day get a price and log it to a spreadsheet.
+
 
 ***
 
@@ -132,7 +134,7 @@ Right off the bat, we see this as our first selector:
 
 ```#\38 4deb8b2982b75be```
 
-OK we see the <kbd>#</kbd> sign which indicates that we are looking at an **ID** attribute. If we look at some other results on the page
+OK, we see the <kbd>#</kbd> sign which indicates that we are looking at an **ID** attribute. If we look at some other results on the page
 we see that each result has a unique **ID**. So Chrome will steer us wrong if we use the copy selector/xpath feature.
 
 In case you wanted to see what it gives for XPATH...
@@ -143,7 +145,9 @@ Here it is more clear that we are looking for elements based on their **ID** att
 
 ***
 
-Get ready this will be your first exercise in thinking like a programmer. We want to select the 3rd result on every page, so how can we
+Get ready! 
+
+This will be your first exercise in thinking like a programmer. We want to select the 3rd result on every page, so how can we
 translate that for a computer to understand?
 
 We know that on every page, there will be no more than 50 results. It really doesn't matter how many there are, so long as there are at least 3.
