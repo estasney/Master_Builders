@@ -30,7 +30,7 @@ be building your own tools!
 
 1. [HTML](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%201%20-%20HTML.md)
 2. [Selectors](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md)
-2.5 [Selenium IDE](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202.5%20-%20Selenium%20IDE.md)
+    a. [Selenium IDE](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202.5%20-%20Selenium%20IDE.md)
 
 ## Upcoming Courses
 
