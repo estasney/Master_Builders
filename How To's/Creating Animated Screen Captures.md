@@ -16,9 +16,9 @@ There are many free options available online. Some I've come across are:
 
 Program | $ 
 --- | ---
-1. [Screen Capture](http://www.screentogif.com/) | Free
-2. [Gif Recorder](http://gifrecorder.com/index.htm#.Wabd_lWxSUk) | Freemium. Adds watermark after 7 days
-3. [ShareX](https://getsharex.com/) | Free
+[Screen Capture](http://www.screentogif.com/) | Free
+[Gif Recorder](http://gifrecorder.com/index.htm#.Wabd_lWxSUk) | Freemium. Adds watermark after 7 days
+[ShareX](https://getsharex.com/) | Free
 
 As of 30AUG2017, I'm currently using Gif Recorder. I find the ability to add subtitles nice to have. However, I will be moving to ShareX after the 7 day trial.
 
