@@ -2,7 +2,7 @@
 ## A Practical Use for XPATH and CSS Selectors
 Once you've gotten the hang of XPATH and/or CSS Selectors in [Lesson 2](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md), it's time to put your knowledge to use!
 
-If you're skipping around, we'll be using Selenium IDE with Firefox. If you have it successfully installed, great otherwise see this [Guide](https://github.com/estasney/Master_Builders/blob/master/Resources/Installing%20Selenium%20IDE.md) on installing it.
+If you're skipping around, we'll be using Selenium IDE with Firefox. If you have it successfully installed, great. otherwise see this [Guide](https://github.com/estasney/Master_Builders/blob/master/Resources/Installing%20Selenium%20IDE.md) on installing it.
 
 ## Some Quick Prep Work
 

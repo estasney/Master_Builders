@@ -1,11 +1,20 @@
 # Selectors
-
+## Table of Contents
+1. [Why Selectors Are Important](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md#why-selectors)
+2. [What Are Selectors](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md#selectors-are-gps-for-your-browser)
+3. [A Case For Pizza](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md#direct-approaches)
+4. [Learning Resources](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md#learning-resources)
+5. [Homework](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md#homework)
+6. [Exercise](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md#learning-resources)
+7. [Topics for Call](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%202%20-%20Selectors.md#learning-resources)
 ## Why Selectors
 In [Lesson 1](https://github.com/estasney/Master_Builders/blob/master/Courses/Lesson%201%20-%20HTML.md) we explored the basic building blocks of the web, HTML. 
 
 Now think of a web page as a city and each HTML block as a building in the city.
 
 As with every city, each building will have its own address. As you'll soon find out, there are quite a few ways to navigate our city!
+
+
 
 ## Selectors Are GPS for your Browser
 Let's imagine we want to get across town to *Talent Hub's Pizza Palace*. Oh and now it's a food truck.
