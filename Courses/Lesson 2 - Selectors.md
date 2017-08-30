@@ -77,9 +77,11 @@ As you can see, a **Direct Approach** would have failed because of the imposter.
 
 However, if "navigate" to the business district first, and then look for the ```<food_truck>``` playing "Sourcing Disco", we would succeed!
 
+***
+
 ### Homework
-- [ ] Install [Selenium IDE](https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
-**Note** If you see a message saying the add-on is not compatible, use this [Guide](https://github.com/estasney/Master_Builders/blob/master/Resources/Installing%20Selenium%20IDE.md)
+- [ ] Install [Selenium IDE].(https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/)
+**Note:** If you see a message saying the add-on is not compatible, use this [Guide](https://github.com/estasney/Master_Builders/blob/master/Resources/Installing%20Selenium%20IDE.md)
 - [ ] Using Selenium IDE, try to automate something!
 - [ ] Automate something using Selenium IDE's Record Feature (enabled by default)
 - [ ] Try changing one parameter and see if it still works. (Example: searching for a different product on Amazon)
@@ -179,7 +181,7 @@ XPATH | CSS | Notes | Results | Why
 
 ***
 
-You've see how we can locate the ```<ol>``` element using a number of different methods with XPATH and CSS.
+You've seen how we can locate the ```<ol>``` element using a number of different methods with XPATH and CSS.
 
 Now it's a simple matter of selecting the "3rd child" of the ```<ol>``` element.
 
@@ -191,12 +193,9 @@ XPATH | CSS | Notes | Results | Why
 
 ![](https://thumbs.gfycat.com/LeafyGrandGemsbok-size_restricted.gif)
 
-
-
-
-
-
+***
 ### Group Call
+***
 - [ ] - CSS
 - [ ] - XPATH
 - [ ] - Tools for Finding Selectors
