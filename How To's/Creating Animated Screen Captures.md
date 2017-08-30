@@ -14,7 +14,7 @@ An animated capture, as seen above, uses a series of images chained together int
 
 There are many free options available online. Some I've come across are:
 
-| Program | $ |
+Program | $ 
 --- | ---
 1. [Screen Capture](http://www.screentogif.com/) | Free
 2. [Gif Recorder](http://gifrecorder.com/index.htm#.Wabd_lWxSUk) | Freemium. Adds watermark after 7 days
