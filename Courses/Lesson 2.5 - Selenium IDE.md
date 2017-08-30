@@ -70,7 +70,93 @@ Strategy | XPATH | CSS | Results
  Find a ```<span>``` element anywhere on page with id=priceblock_ourprice| //span[@id='priceblock_ourprice'] | span#priceblock_ourprice | PASS
  Find a ```<span>``` element by class | //span[@class='a-size-medium a-color-price'] | span.a-size-medium.a-color-price | PASS (See Note)
  
- 
+
+Note From Table: With CSS Selectors, when an attribute contains a space, you treat it as an additional atrtibute. So in this example we write it with two class attributes.
+
+We have to two selectors that we can use! But the id and class names look as if they could change. We should try to find another selector that is more robust. Websites change so it's important to be able to handle those changes.
+
+If we look higher up in the HTML Hierarchies, we come across ```<div id="price_feature_div" class="feature" data-feature-name="price">```
+This looks like more solid ground. We could use this as a landmark to the price without relying on the ```<span>``` tag's id and class names
+
+Another Table
+
+Strategy | XPATH | CSS | Results
+ --- |--- | --- | ---
+Use the ```<div>``` data-feature-name, jump to ```<span>```| //div[@data-feature-name='price']//span | div[data-feature-name='price'] span | FAIL, 4 Results
+Use the ```<div>``` data-feature-name, jump to the first```<span>``` | //div[@data-feature-name='price']//span[1] | Use the ```<div>``` data-feature-name, jump to ```<span>```| FAIL, 2 Results
+
+
+Let's see what's happening with our second row, it's a great opportunity to learn!
+
+![](https://thumbs.gfycat.com/FittingEsteemedArieltoucan-size_restricted.gif)
+
+
+Are selector is *nearly* there we just need to make sure we don't include the second ```<span>``` element. We can use filters of XPATH and CSS that select for elements with direct parents that are ```<td>``` elements.
+
+I didn't know the syntax to do this off-hand so here's what I Googled. I hope this shows how the right searches can make a world of difference for finding answers:
+
+**xpath direct ancestor is element**
+
+We see from this [post](https://stackoverflow.com/questions/3005370/xpath-to-find-nearest-ancestor-element-that-contains-an-element-that-has-an-attr) on Stackoverflow how to write this
+
+```root/foo/bar[ancestor::foo[bar[@attr="val"]]```
+
+Since the other ```<span>``` element also has the same ancestor we should use parent vs ancestor. Our selector is now:
+
+```//div[@data-feature-name='price']//span[1][parent::td]```
+
+We test it and it works!
+
+
+*** 
+
+The process of finding the right selector is 95% of the process of automation. But now that we have one for the price, we can integrate this with Selenium IDE.
+
+**Commands Learned** - storeText
+
+
+
+![](https://thumbs.gfycat.com/ViciousTangibleHuman-size_restricted.gif)
+
+
+Now that the price has been saved, we want to now visit the Google Form that we created earlier.
+
+**Commands Learned** - open
+
+![](https://thumbs.gfycat.com/ShadyDevotedIncatern-size_restricted.gif)
+
+
+Now that we have loaded the Google Forms page, we just need to find the XPATH or CSS Selectors for:
+1. The input field for price
+2. The submit button
+
+I'll save you some time and tell you that on Google Forms, every input field has a unique name attribute. So in this case:
+
+XPATH | CSS |
+--- | ---
+//*[@name='entry.809504561'] | input[name='entry.809504561']
+
+
+That just leaves the Submit button. Now is a good time to show you the "Select" button on Selenium. It's not as good as you will be, but it can save some time *and* offers alternatives:
+
+**Features Learned** - "Select Button"
+
+![](https://thumbs.gfycat.com/SecondhandFirmEagle-size_restricted.gif)
+
+
+Selectors are done, now we need to enter the price value and click the submit button
+
+The selector for the button was ```//div[3]/div/div/div/content```
+
+**Commands Learned** - sendKeys, click
+
+![](https://thumbs.gfycat.com/ElectricTanConey-size_restricted.gif)
+
+
+
+
+
+
 
 
 
