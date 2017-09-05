@@ -16,7 +16,14 @@ Since layoffs are (thankfully) not a normal occurence, the articles are posted i
 
 #### Analyze the page
 
-![](https://thumbs.gfycat.com/GeneralDelayedCaiman-size_restricted.gif)
+Following our common theme...
+1. <kbd>Right-Click</kbd> and <kbd>Inspect</kbd> the article at the top of the page
+2. See if we can find a parent element that all articles fall under
+3. Find the parent write a selector for it and then select it's first child element
+***
+![](https://thumbs.gfycat.com/FondSpectacularGosling-size_restricted.gif)
+***
+
 
 
 

@@ -42,5 +42,6 @@ TBA
 2. [Examples](https://github.com/estasney/Master_Builders/tree/master/Examples)
 3. [How To's](https://github.com/estasney/Master_Builders/tree/master/How%20To's)
 4. [Resources](https://github.com/estasney/Master_Builders/tree/master/Resources)
+5. [Wiki](https://github.com/estasney/Master_Builders/wiki)
 
 
