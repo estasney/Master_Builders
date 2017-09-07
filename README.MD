@@ -40,7 +40,7 @@ TBA
 
 1. [Courses](https://github.com/estasney/Master_Builders/tree/master/Courses)
 2. [Examples](https://github.com/estasney/Master_Builders/tree/master/Examples)
-3. [How To's](https://github.com/estasney/Master_Builders/tree/master/How%20To's)
+3. [How To's](https://github.com/estasney/Master_Builders/tree/master/How%20To)
 4. [Resources](https://github.com/estasney/Master_Builders/tree/master/Resources)
 5. [Wiki](https://github.com/estasney/Master_Builders/wiki)
 
