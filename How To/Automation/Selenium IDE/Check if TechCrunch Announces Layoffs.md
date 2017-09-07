@@ -10,7 +10,7 @@ We didn't have time to cover how to do this in Selenium IDE so I am posting a ho
 
 ### The Site
 Looking at the site, [TechCrunch Layoff Announcements](https://techcrunch.com/tag/layoffs/) we see that each post contains information about layoffs.
-Since layoffs are (thankfully) not a normal occurence, the articles are posted irregularly.
+Since layoffs are (thankfully) not a normal occurrence, the articles are posted irregularly.
 
 ### Using Selenium IDE and Google Forms
 
@@ -19,7 +19,7 @@ Since layoffs are (thankfully) not a normal occurence, the articles are posted i
 Following our common theme...
 1. <kbd>Right-Click</kbd> and <kbd>Inspect</kbd> the article at the top of the page
 2. See if we can find a parent element that all articles fall under
-3. Find the parent write a selector for it and then select it's first child element
+3. Find the parent, write a selector for it and then select it's first child element
 ***
 ![](https://thumbs.gfycat.com/FondSpectacularGosling-size_restricted.gif)
 ***
