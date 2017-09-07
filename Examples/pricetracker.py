@@ -51,12 +51,12 @@ class PriceTracker(object):
         tracked_timestamp = strftime("%D", localtime())
         if selector_of_product[0] == 'XPATH':
             try:
-                product_price = self.driver.find_element_by_xpath(selector_of_product[1]).text
+                product_price = self.driver.find_element_by_xpath(selector_of_product[1])
             except:
                 product_price = "Error Getting Product"
         elif selector_of_product[0] == 'CSS':
             try:
-                product_price = self.driver.find_element_by_css_selector(selector_of_product[1]).text
+                product_price = self.driver.find_element_by_css_selector(selector_of_product[1])
             except:
                 product_price = "Error Getting Product"
         else:
