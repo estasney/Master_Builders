@@ -1,4 +1,4 @@
-# Scraping a Cybersecurity Measures
+# Scraping Cybersecurity Measures
 
 1. [The Site](https://cybersecurityventures.com/cybersecurity-500-list/#home/?view_1_per_page=500&view_1_page=1)
 
