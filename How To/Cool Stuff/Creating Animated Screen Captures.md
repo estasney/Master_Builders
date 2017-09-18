@@ -56,7 +56,7 @@ Whenever you'd like to embed a GIF animation, copy the GIF URL (Looks like: ```h
 ![](gfycat url here)
 ``` 
 
-You'll immediately see if displayed on the right hand side of the screen!
+You'll immediately see it displayed on the right hand side of the screen!
 
 To share your document, select ```Export -> HTML```
 
