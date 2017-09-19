@@ -99,7 +99,58 @@ In no particular order.
 
 Here's where you will appreciate *easygui*. We will write a line that displays a *Directory Open Box* popup where we can select the folder with the CSV files.
 
-Now's a good time to mention you can grab these files 
+Now's a good time to mention you can grab these files [Here](https://github.com/estasney/Master_Builders/raw/master/Resources/Files/combine_these.zip). There are 40 files in total in a compressed (zipped) folder. By now you should know how to unzip them or at least how to Google how to do it.
+
+#### A Method to This Madness
+
+To get *easygui* to do something useful, we need to access one it's *methods*. If you were a package you might have methods such as:
+
+``` Python
+master_builder.eat()
+master_builder.build()
+```
+
+Think of methods as a logical grouping of actions. We can also provide initial instructions to methods. So if your eat() method contains instructions on the proper way to eat food, it would be important to specify what food you are about to eat, right? Same for your .build()
+method. We should probably specify what materials we have at hand and what we want our creation to look like.
+
+``` Python
+master_builder.eat(food_type='pizza')
+master_builder.build(raw_materials=['Wood', 'Steel'], creation='baseball_bat')
+``` 
+
+Let's slow down a moment. First you'll notice that I'm including quite a few <kbd>_</kbd> in my object names. That's a good habit to get into as it makes it much more readable. Also, you cannot include <kbd>Space</kbd>s within an object name.
+
+See the raw_materials **argument** for master_builder.build? Rather than specify one material, I specified multiple materials with a **list**. Think of a list as a flexible container that can hold multiple variables.
+
+If we want to create an object ```work_week``` we might define the days of the week within a list like:
+
+``` Python
+work_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+```
+
+Since each day of the week is a **string**, it is surrounded with either single <kbd>'</kbd> or double <kbd>"</kbds>. **string** is just a technical term for text.
+We start a list with <kbd>[</kbd> and end it with <kbd>]</kbd>.
+
+Each item with the list is seperated with a <kbd>,</kbd>.
+
+With these core concepts, we can now access *easygui* and its diropenbox() method.
+
+Now your file can look like this:
+
+``` Python
+import os
+import csv
+import pandas
+import easygui
+
+folder_to_open = easygui.diropenbox()
+print("The folder you selected is: " + folder_to_open)
+```
+
+You can run the file and see a popup appear! Note that the popup may be buried underneath other open windows but it's there!
+
+And now once you select the folder, you will see the message contained within ```print```
+
 
 
 
