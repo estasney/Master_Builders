@@ -76,8 +76,32 @@ Secondly, *pandas* will save you quite a great deal of time when importing CSV f
 
 Now, how do I install these?
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd> while you have PyCharm open. And enter Project Interpreter
-
+***
 ![](https://thumbs.gfycat.com/AnimatedGrossIslandcanary-size_restricted.gif)
+***
+
+- [ ] Install *pandas* and *easygui*
+
+#### Finish with import
+
+With pandas and easygui now installed, you should import them. Your file will now look like:
+
+```Python
+import os
+import csv
+import pandas
+import easygui
+```
+
+In no particular order.
+
+#### Where's that folder?
+
+Here's where you will appreciate *easygui*. We will write a line that displays a *Directory Open Box* popup where we can select the folder with the CSV files.
+
+Now's a good time to mention you can grab these files 
+
+
 
 
  
