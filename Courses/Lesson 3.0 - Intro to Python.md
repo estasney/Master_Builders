@@ -129,9 +129,13 @@ work_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 ```
 
 Since each day of the week is a **string**, it is surrounded with either single <kbd>'</kbd> or double <kbd>"</kbds>. **string** is just a technical term for text.
-We start a list with <kbd>[</kbd> and end it with <kbd>]</kbd>.
+We start a list with 
 
-Each item with the list is seperated with a <kbd>,</kbd>.
+<kbd>[</kbd>
+ 
+and end it with <kbd>]</kbd>.
+
+Each item with the list is separated with a <kbd>,</kbd>.
 
 With these core concepts, we can now access *easygui* and its diropenbox() method.
 
