@@ -128,7 +128,7 @@ If we want to create an object ```work_week``` we might define the days of the w
 work_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 ```
 
-Since each day of the week is a **string**, it is surrounded with either single <kbd>'</kbd> or double <kbd>"</kbds>. **string** is just a technical term for text.
+Since each day of the week is a **string**, it is surrounded with either single <kbd>'</kbd> or double <kbd>"</kbd>. **string** is just a technical term for text.
 We start a list with: 
 
 <kbd>[</kbd>
