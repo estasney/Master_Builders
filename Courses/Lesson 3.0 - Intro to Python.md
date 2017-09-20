@@ -129,7 +129,7 @@ work_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 ```
 
 Since each day of the week is a **string**, it is surrounded with either single <kbd>'</kbd> or double <kbd>"</kbds>. **string** is just a technical term for text.
-We start a list with 
+We start a list with: 
 
 <kbd>[</kbd>
  
