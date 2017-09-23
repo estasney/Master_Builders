@@ -153,8 +153,93 @@ print("The folder you selected is: " + folder_to_open)
 
 You can run the file and see a popup appear! Note that the popup may be buried underneath other open windows but it's there!
 
-And now once you select the folder, you will see the message contained within ```print```
+And now once you select the folder, you will see the message contained within ```print``` that displays the folder that you selected to open.
 
+#### The Beauty of Loops
+
+Did you ever have to write the same sentence hundreds of times as punishment for something you did in grade school?
+
+You likely got very bored and tired of the tedious, boring work. But our computers are excellent at these kinds of things!
+
+Whether they should perform the same task hundreds or even billions of times, once they have a set of instructions, you are done!
+
+So keep in mind, our spreadsheets that we need to combine can be ten or ten million. The amount of work required of you to combine these is the same (so long as the instructions apply to every file)
+
+#### Your First Loop
+
+First we should tell the computer what spreadsheets we want to combine. Fortunately for us, all of these spreadsheets are in one folder.
+
+So we will give instructions saying, "Do <something> for every file in this folder." We accomplish this with the *os* package (and you should save this for future reference, you'll use it again.)
+
+``` Python
+import os
+
+list_of_spreadsheets = [] # Creating an empty list that we will populate with filenames
+
+for file in os.listdir(folder_to_open):  # file can be any variable you like, even pizza
+    # Note the indentation here, you use the TAB key
+    file_path = os.path.join(folder_to_open, file)
+    list_of_spreadsheets.append(file)  # Append is adding one item at a time to our list
+   
+# Note that there is now no indentation. Code at this point and below only executes after our for loop is complete
+number_of_files = len(list_of_spreadsheets)  # Use len() to get the length of something. In this case how many items.
+number_of_files = str(number_of_files)  # Since we want to print number_of_files, we use str() to convert an integer to string.
+print("Found " + number_of_files + " spreadsheets in the folder")
+        
+```
+
+**Note**: The introduction of .append(), len() and str()
+
+#### Open and Combine
+
+We now have a list of files with their direct paths. Now we just need to write instructions saying, "For each of these files, open the file and add the contents to a running list"
+
+For opening CSV files, I prefer *pandas*. You're under no obligation to do so, but it will make your life easier!
+
+Let's get these combined!
+
+``` Python
+
+# Continuing from above...
+
+first_sheet = pd.read_csv(list_of_spreadsheets[0]) # We pull our first sheet from the list of files.
+
+# For the remaining spreadsheets we will add each new spreadsheet to our first_sheet. To avoid repeating the first
+# spreadsheet note the use of the range function.
+
+total_sheets = len(list_of_spreadsheets)
+
+for file_number in range(1, total_sheets): # Setting range at 1 rather than 0 skips our first sheet
+    file_to_open = list_of_spreadsheets[file_number]  # file_number changes by + 1 with each loop
+    sheet_contents = pandas.read_csv(file_to_open)
+    first_sheet = first_sheet + sheet_contents
+    
+
+```
+
+There was a lot going on there! But what we've done is to open the first spreadsheet and then add every spreadsheet (except the first one) to this first sheet.
+
+The result is our combined spreadsheets.
+
+#### Save our work
+
+This is even easier... let's skip the csv package and use just the pandas package.
+
+We need to set a save path so we'll use easygui to get that
+
+```file_save_path = easygui.filesavebox()```
+
+And the rest is cake:
+
+``` first_sheet.to_csv(file_save_path)```
+
+
+
+
+
+
+
+```
 
 
 
